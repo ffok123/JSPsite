@@ -1,0 +1,21 @@
+<html>
+
+<head>
+<title>
+Using the parseInt() Function
+</title>
+</head>
+
+<body>
+<script language = "JavaScript">
+    var grade = prompt("What is your grade point? ", "")
+	   // grade entered as a string
+    grade=parseInt(grade)
+	 // grade converted to an integer
+    grade+=10;
+    document.write("After a 10 point bonus, your grade is "
+                  + grade + "!");
+</script>
+</body>
+
+</html>
